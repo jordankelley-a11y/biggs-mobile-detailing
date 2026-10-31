@@ -95,7 +95,7 @@ export const SITE = {
    * Used for canonical link, social sharing and search-engine data.
    * Leave as-is until you have a domain.
    */
-  siteUrl: 'https://biggsmobiledetaing.com',
+  siteUrl: 'https://biggsmobiledetailing.com',
 
   // -------------------------------------------------------------- Booking ⭐
   /**
