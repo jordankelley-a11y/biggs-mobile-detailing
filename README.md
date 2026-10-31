@@ -79,7 +79,7 @@ Any of these is free for a site like this; each runs `npm run build` and serves 
 
 **Drag-and-drop (Netlify):** run `npm run build` locally, then drag the generated `dist` folder onto netlify.com/drop.
 
-`public/_redirects` makes unknown addresses load the site's custom 404 page on Netlify and Cloudflare Pages. On Vercel, add a `vercel.json` with a rewrite of `/(.*)` to `/index.html` if you want the custom 404 there.
+Cloudflare (via `wrangler.jsonc`) and Cloudflare Pages send unknown addresses to the site's custom 404 page automatically. On Netlify, add a `public/_redirects` file containing `/*  /index.html  200`. On Vercel, add a `vercel.json` with a rewrite of `/(.*)` to `/index.html` if you want the custom 404 there.
 
 ## 8. Before launch checklist
 
@@ -103,3 +103,9 @@ public/
   images/             ← your photos (samples are labeled placeholders)
 vite.config.ts        ← fills page title, social tags and local-business data from site.ts
 ```
+
+## Search engine (SEO) extras
+
+- `public/robots.txt` and `public/sitemap.xml` tell Google where your site is. If you ever add more pages, add them to the sitemap.
+- `public/og-image.jpg` is the picture that shows when someone texts or posts your link (1200×630).
+- `npm run build` also pre-renders the page (`src/entry-server.tsx` + `scripts/prerender.mjs`) so all text is in the HTML for Google. If that step ever fails, the build continues and the site still works normally.

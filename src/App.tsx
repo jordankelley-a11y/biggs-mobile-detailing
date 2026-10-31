@@ -17,7 +17,7 @@ export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   // Single-page site: any path other than the home page gets the custom 404.
-  const path = window.location.pathname.replace(/\/+$/, '') || '/';
+  const path = typeof window === 'undefined' ? '/' : window.location.pathname.replace(/\/+$/, '') || '/';
   if (path !== '/' && path !== '/index.html') return <NotFound />;
 
   return (

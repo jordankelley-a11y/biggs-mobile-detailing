@@ -132,7 +132,7 @@ export const SITE = {
     description:
       'Premium mobile car detailing in Lubbock, TX. Interior and exterior detailing brought to your home or work. Book your detail online with BIGGS Mobile Detailing.',
     /** 1200×630 image used when the site is shared on social media. */
-    ogImage: '/og-image.png',
+    ogImage: '/og-image.jpg',
   },
 
   // ----------------------------------------------------------------- Images

@@ -35,18 +35,17 @@ export default function Hero() {
       <div aria-hidden="true" className="absolute inset-x-0 bottom-0 -z-10 h-32 bg-gradient-to-t from-ink to-transparent" />
 
       <div className="container-page pb-16 pt-32 sm:pb-20 lg:pb-0 lg:pt-24">
-        <p className="mb-5 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.3em] text-white/85">
-          <span aria-hidden="true" className="h-px w-8 bg-accent" />
-          LUBBOCK, TEXAS
-        </p>
-
-        <h1
-          id="hero-title"
-          className="max-w-4xl text-[2.6rem] font-black uppercase leading-[1.02] tracking-tight sm:text-6xl lg:text-8xl"
-        >
-          Your vehicle.
-          <br />
-          Reset to perfection.
+        <h1 id="hero-title" className="max-w-4xl">
+          <span className="mb-5 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.16em] text-white/85 sm:tracking-[0.3em]">
+            <span aria-hidden="true" className="h-px w-8 bg-accent" />
+            Mobile detailing in Lubbock, TX
+          </span>
+          {' '}
+          <span className="block text-[2.6rem] font-black uppercase leading-[1.02] tracking-tight sm:text-6xl lg:text-8xl">
+            Your vehicle.
+            <br />
+            Reset to perfection.
+          </span>
         </h1>
 
         <p className="mt-6 max-w-xl text-base leading-relaxed text-white/80 sm:text-lg">
