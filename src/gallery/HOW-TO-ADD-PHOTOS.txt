@@ -1,0 +1,31 @@
+HOW TO ADD YOUR OWN PHOTOS TO THE "OUR WORK" GALLERY
+=====================================================
+
+1. Drop your photos into THIS folder (src/gallery).
+   Supported: .jpg  .jpeg  .png  .webp   (iPhone .HEIC files will NOT work —
+   in your Photos app choose export/share as "Most Compatible" / JPEG, or
+   screenshot-free: AirDrop/email them which converts to JPG.)
+
+2. Name the file for what it shows. The name becomes the caption (capital
+   letters are kept, so write BMW-M3-interior, not bmw-m3-interior):
+
+      leather-seats.jpg           → "Leather seats"
+      02-wheels-and-tires.jpg     → "Wheels and tires"   (leading number = sort order)
+
+3. Before-and-after: add TWO files with the same name plus -before / -after:
+
+      f150-interior-before.jpg
+      f150-interior-after.jpg     → one tile; clicking it shows both side by side
+
+4. Delete a photo from this folder to remove it from the website.
+
+5. Photos appear in filename order. When this folder has at least one photo,
+   the gray "SAMPLE" placeholders disappear automatically.
+
+TIPS
+ - Shrink big phone photos first (about 1600px wide, under ~500 KB each):
+   https://squoosh.app is free. Smaller photos = faster site = more bookings.
+ - Only use real photos of your own work.
+ - After adding photos, run the site (npm run dev) to check, then republish.
+   If your site deploys from GitHub, you can upload files straight into this
+   folder on github.com ("Add file → Upload files") and it redeploys itself.

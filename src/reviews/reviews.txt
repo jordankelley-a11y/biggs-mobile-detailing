@@ -1,0 +1,41 @@
+# CUSTOMER REVIEWS — edit this file to show real reviews on your website.
+#
+# HOW IT WORKS
+#  - Lines that start with # are notes and are ignored.
+#  - Each review is a block of text. Leave ONE blank line between reviews.
+#  - Put the customer's exact words first, then a last line that starts with a dash:
+#
+#        - Name | Where it's from (optional) | Stars 1-5 (optional)
+#
+# RULES
+#  - Only use REAL reviews, word for word (fix an obvious typo at most).
+#  - Only add the star number if that customer really gave that rating.
+#  - Get the customer's OK before using their name (first name + last initial is fine).
+#  - Delete every review below to bring back the "no reviews yet" placeholder.
+#
+# These are copied word for word from the BIGGS Google reviews page.
+# ------------------------------------------------------------------------
+
+Jordan was early for my appointment, extremely respectful, and did a great job. Attention to detail was on point. Highly recommend
+- Brody E. | Google review | 5
+
+Jordan has cleaned both vehicles of ours and left them looking brand new. His attention to detail is off the top. Highly recommend and will continue to use him.
+- Sarah R. | Google review | 5
+
+Biggs detailing did an awesome job washing and detailing my Traverse. Very thorough and attention to detail.
+- Beau B. | Google review | 5
+
+Amazing service all around. Great attention to detail. Complete remodel of how much dirt was built up all over the place.
+- Carlos G. | Google review | 5
+
+Made the interior of my car look amazing! I had some tough stains and he worked hard on getting it to look right!
+- Seth H. | Google review | 5
+
+Amazing. My car was terrifying and disgusting. 2018 it looks brand new now
+- Bita T. | Google review | 5
+
+Did amazing getting all the mud off the car and leaving it looking brand new. Looking forward to getting my vehicles done by him
+- Pobic | Google review | 5
+
+Amazing person and vibes good he had a reasonable price and I love that he takes his time and apply the reasonable work ethic on my car
+- Authorizedpolicy | Google review | 5

@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4.25rem; /* keeps section titles clear of the sticky header */
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-ink font-sans text-white antialiased;
+    overflow-x: hidden;
+  }
+  :focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 3px;
+  }
+  ::selection {
+    background: #c1121f;
+    color: #fff;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.22em] text-silver;
+  }
+  /* small brand-red tick before section labels */
+  .eyebrow::before {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 2px;
+    margin-right: 0.75rem;
+    vertical-align: middle;
+    background: #c1121f;
+  }
+  .section-title {
+    @apply text-3xl font-black uppercase leading-[1.05] tracking-tight sm:text-4xl lg:text-5xl;
+  }
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+  .btn {
+    @apply inline-flex min-h-[52px] items-center justify-center px-7 text-sm font-bold uppercase tracking-[0.14em] transition-colors duration-200;
+  }
+  .btn-primary {
+    @apply btn bg-accent text-white hover:bg-accent-hover;
+  }
+  .btn-outline {
+    @apply btn border border-white/40 text-white hover:border-white hover:bg-white hover:text-ink;
+  }
+}
+
+/* Subtle fade-up used by <Reveal>. Disabled automatically for reduced-motion users. */
+.reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}

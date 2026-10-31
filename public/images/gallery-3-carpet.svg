@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Sample placeholder image">
+<rect width="1200" height="900" fill="#151518"/>
+<g stroke="#232328" stroke-width="1"><line x1="0" y1="0" x2="0" y2="900"/><line x1="75" y1="0" x2="75" y2="900"/><line x1="150" y1="0" x2="150" y2="900"/><line x1="225" y1="0" x2="225" y2="900"/><line x1="300" y1="0" x2="300" y2="900"/><line x1="375" y1="0" x2="375" y2="900"/><line x1="450" y1="0" x2="450" y2="900"/><line x1="525" y1="0" x2="525" y2="900"/><line x1="600" y1="0" x2="600" y2="900"/><line x1="675" y1="0" x2="675" y2="900"/><line x1="750" y1="0" x2="750" y2="900"/><line x1="825" y1="0" x2="825" y2="900"/><line x1="900" y1="0" x2="900" y2="900"/><line x1="975" y1="0" x2="975" y2="900"/><line x1="1050" y1="0" x2="1050" y2="900"/><line x1="1125" y1="0" x2="1125" y2="900"/><line x1="1200" y1="0" x2="1200" y2="900"/><line x1="0" y1="0" x2="1200" y2="0"/><line x1="0" y1="75" x2="1200" y2="75"/><line x1="0" y1="150" x2="1200" y2="150"/><line x1="0" y1="225" x2="1200" y2="225"/><line x1="0" y1="300" x2="1200" y2="300"/><line x1="0" y1="375" x2="1200" y2="375"/><line x1="0" y1="450" x2="1200" y2="450"/><line x1="0" y1="525" x2="1200" y2="525"/><line x1="0" y1="600" x2="1200" y2="600"/><line x1="0" y1="675" x2="1200" y2="675"/><line x1="0" y1="750" x2="1200" y2="750"/><line x1="0" y1="825" x2="1200" y2="825"/><line x1="0" y1="900" x2="1200" y2="900"/></g>
+<rect x="216" y="270" width="768" height="360" fill="none" stroke="#3a3a41" stroke-width="2" stroke-dasharray="10 8"/>
+<g font-family="Arial, Helvetica, sans-serif" text-anchor="middle" fill="#c9cbd0">
+<text x="600" y="436" font-size="35" font-weight="700" letter-spacing="3">SAMPLE IMAGE</text>
+<text x="600" y="482" font-size="19" fill="#8d9097">Carpet &amp; floor mats (after)</text>
+<text x="600" y="512" font-size="16" fill="#6f7279">Replace in GALLERY — src/config/site.ts</text>
+</g>
+</svg>
